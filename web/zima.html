@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>zima/project</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="zima.css">
+        <script type="text/javascript" src="changelang.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <div class="navbar">
+                <ul id="nav">
+                    <li id="home"><a id="home&link" class="menu" href="#">Home</a></li>
+                    <li class="nav" id="About">
+                        <a class="menu" href="#" id="about_href">About</a>  
+                                    <ul id="about_ul">
+                                        <li class="about"><a  href="#"><div class="ul_div" id="aboutus">About Us</div></a></li>
+                                        <li class="about"><a href="#"><div class="ul_div" id="team">Team</div></a></li>
+                                        <li class="about"><a href="#"><div class="ul_div" id="testimonials">Testimonials</div></a></li>
+                                        <li class="about" id="ul_div"><a href="#"><div class="ul_div" id="DeepDropDown">DeepDropDown &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > </div></a>
+                                        <ul id="drop_ul">
+                                            <li class="drop"><a href="#"><div class="drop_div" id="DeepDropDown1">DeepDropDown1</div></a></li>
+                                            <li class="drop"><a href="#"><div class="drop_div" id="DeepDropDown2">DeepDropDown2</div></a></li>
+                                            <li class="drop"><a href="#"><div class="drop_div" id="DeepDropDown3">DeepDropDown3</div></a></li>
+                                            <li class="drop"><a href="#"><div class="drop_div" id="DeepDropDown4">DeepDropDown4</div></a></li>
+                                        </ul>
+                                        </li>
+                                    </ul>
+                    </li>  
+                    <li id="products"><a class="menu" href="#">Products</a></li>
+                    <li id="sign"><a class="menu" href="#">Sign</a></li>
+                    <li id="blog"><a class="menu" href="#">Blog</a></li>
+                </ul>
+                <div id="zima"><div style="display:inline-block;color:#1fbe39;">ZI</div><div style="display:inline-block">MA</div></div>
+                <div class="changelang">
+                    <button type="button" class="parsian" onclick="changelang()">
+                        <img src="image/pars.jpg" alt="parsian" id="iamageiran">
+                    </button>
+                </div>
+                <a href="#"><img src="image/whatsapp.png" alt="whatsapp" id="whatsapp"></a>
+                <a href="#"><img src="image/inesta.png" alt="inesta" id="inesta"></a>
+                <a href="#"><img src="image/skype.png" alt="skype" id="skype"></a>
+            </div>
+            <div id="slider" class="slider">
+                <div class="slide active">
+                    <img class="img" src="image/slide/slide-1.jpg" >
+                    <div class="text" id="text1" >
+                        Zima is a knowledge-based company that operates in the field of biotechnology. This company has </br> been operating for about 8 years.This company is currently operating under the management of</br> Engineer Rezaei and is located in Pardis Technology Park. 
+                    </div>
+                </div>
+                <div class="slide">
+                    <img class="img" src="image/slide/slide-2.jpg"/>
+                    <div class="text" id="text2" >
+                        Hi, I am Abolfazl Hosseinzadeh. I am a front programming intern and a student at Iran University<br> of Science and Technology. I hope you enjoy my work.
+                    </div>
+                </div>
+                <div class="slide">   
+                    <img class="img" src="image/slide/slide-3.jpg"/>
+                    <div class="text" id="text3" >
+                        This project is to create a web page that should work properly. I used ready-made template sites </br>for this project.Of course, this project is not a copy of the ready-made template, but a model of those sites
+                    </div>
+                </div>
+                    <a href="#" class="prev"><div>&#10094</div></a>
+                    <a href="#" class="next"><div>&#10095</div></a>
+            </div>
+            <div id="dots">
+                <span class="dots active"></span>
+                <span class="dots"></span>
+                <span class="dots"></span>
+            </div>
+            <script src="zima.js"></script>
+        <div class="container">
+        </div>
+        <div class="footer">
+            <div id="company" >
+                <div id="address">
+                    <h2 id="title_address">
+                        company
+                    </h2>
+                        Tehran,Pardis,<br>Science and Technology Park
+                </div>
+                <div id="phone">
+                    Phone:021000000000000<br>
+                    Email:email@gmail.com
+                </div>
+            </div>
+            <div id="UsefulLink">
+                <h2 id="title_link">
+                    Useful Link
+                </h2>
+                <ul id="ul_links">
+                    <li class="link_li"><div>></div><a class="href" href="#" id="link_home">&nbsp; Home</a></li>
+                    <li class="link_li"><div>></div><a class="href" href="#" id="link_aboutus">&nbsp; About Us</a></li>
+                    <li class="link_li"><div>></div><a class="href" href="#" id="link_sevice">&nbsp; Service</a></li>
+                    <li class="link_li"><div>></div><a class="href" href="#" id="link_terms">&nbsp; Terms of Service</a></li>
+                    <li class="link_li"><div>></div><a class="href" href="#" id="link_privacy">&nbsp; Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div id="Our_Service">
+                <h2 id="title_service">
+                    Our Service
+                </h2>
+                <ul id="ul_service">
+                    <li class="service_li"><div>></div><a class="href" href="#" id="Web_Design">&nbsp; Web Design</a></li>
+                    <li class="service_li"><div>></div><a class="href" href="#" id="Web_Applications">&nbsp; Web Applications</a></li>
+                    <li class="service_li"><div>></div><a class="href" href="#" id="Web_development">&nbsp; Web Development</a></li>
+                    <li class="service_li"><div>></div><a class="href" href="#" id="marketing">&nbsp; Marketing</a></li>
+                    <li class="service_li"><div>></div><a class="href" href="#" id="graphics">&nbsp; Graphic Design</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="finished">
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>  
+    </body>
+</html>
